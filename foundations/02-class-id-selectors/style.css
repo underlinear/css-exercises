@@ -1,5 +1,5 @@
 .class {
-  background-color:light-red;
+  background-color:pink;
   font-family:Verdana,"DejaVu Sans",sans-serif;
 }
 #one {
@@ -10,7 +10,7 @@
   font-size:24px;
 }
 #another {
-  background-color:light-green;
+  background-color:lightgreen;
   font-size:24px;
   font-weight:bold;
 }
