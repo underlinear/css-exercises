@@ -1,16 +1,18 @@
 .class {
-  background-color:pink;
-  font-family:Verdana,"DejaVu Sans",sans-serif;
-}
-#one {
-  color:blue;
-  font-size:36px;
-}
-.class.cooler {
-  font-size:24px;
-}
-#another {
-  background-color:lightgreen;
-  font-size:24px;
-  font-weight:bold;
-}
+    background-color:pink;
+    font-family:Verdana,"DejaVu Sans",sans-serif;
+  }
+  #one {
+    color:blue;
+    font-size:36px;
+    font-family:Helvetica, sans-serif;
+  }
+  .class.cooler {
+    font-size:24px;
+  }
+  #another {
+    background-color:lightgreen;
+    font-size:24px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
