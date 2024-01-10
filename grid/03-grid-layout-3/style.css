@@ -4,7 +4,15 @@
 }
 
 .container {
+  height: 100vh;
   text-align: center;
+
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;/*header header
+                  sidebar nav
+                  sidebar article
+                  footer footer*/
+                   
 }
 
 .container div {
@@ -18,24 +26,23 @@
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
+  grid-area: 1 / 1 / 2 / 3;
 }
 
-.logo {
-  text-align: left;
-}
-
-.menu ul{
+.menu ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  text-align: match-parent;
 }
 
-.menu ul,
 .menu li {
   font-size: 16px;
   list-style: none;
-  text-align: right;
+  margin: auto;
 }
+
+
 
 .sidebar {
   background-color: #C50208;
